@@ -1,0 +1,35 @@
+.transactionHistory {
+    width: 600px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.head {
+    background-color: #5FBFF9;
+    color: azure;
+    height: 40px;
+}
+
+.headItem:not(:last-child),
+td:not(:last-child) {
+    border-right: 1px solid #C8CCCF;
+}
+
+.transactionRow {
+    height: 30px;
+    color: #6D7071;
+    font-size: 12px;
+}
+
+.transactionRow:nth-child(even) {
+    background-color: #D9E0E4;
+}
+
+.transactionRow:nth-child(odd) {
+    background-color: #F7FAFB;
+}
+
