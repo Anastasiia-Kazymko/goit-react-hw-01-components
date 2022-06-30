@@ -18,10 +18,10 @@ export const Statistics = ({ stats }) => {
   );
 };
 
-Statistics.propTypes = {
+/* Statistics.propTypes = {
   stats: PropTypes.shape({
     label: PropTypes.string,
     percentage: PropTypes.number
   })
   
-} 
+}  */
