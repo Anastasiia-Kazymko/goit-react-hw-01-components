@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css'
 
-export const Statistics = ({ stats }) => {  
-  
+export const Statistics = ({ stats }) => {    
       return (
     <section className="statistics">
         <h2 className={css.title}>Upload stats</h2>
